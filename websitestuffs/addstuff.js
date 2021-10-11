@@ -24,10 +24,18 @@ let headerHTML = '<a href="index.html"><img src="sitelogo.png" alt="SBARG 2.5: D
 //footer
 let footerHTML = '<hr><br><p>site made by shinyJiggly, special thanks to ifelse95</p>' ;
 
+//check icMode
+const icMode = False
+const urlParams = new URLSearchParams(queryString);
+const icMode = urlParams.get('icMode');
 
 //teh elements
-if (document.getElementById("menuarea")) {
+if (document.getElementById("menuarea") && icMode == False) {
   document.getElementById("menuarea").innerHTML = menuareaHTML;
+}
+
+if (document.getElementById("menuarea") && icMode == True) {
+  document.getElementById("menuarea").innerHTML = icmenuareaHTML;
 }
 
 if (document.getElementById("header")) {
