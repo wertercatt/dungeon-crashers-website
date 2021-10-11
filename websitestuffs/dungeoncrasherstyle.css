@@ -1,0 +1,56 @@
+
+a:link {color:#0099ee;text-decoration:none;}
+a:visited {color:#007cc1;text-decoration:none;}
+a:hover {text-decoration:underline;}
+
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+body {
+	background-image: url(jack-sloop-starter.png),url(planetglow.png),url(jeremy-thomas-unsplash.jpg);
+	background-position: bottom, bottom, left top;
+	background-repeat: no-repeat;
+	padding: 20px;
+	background-size: auto, auto, cover;
+	background-color: #000221;
+}
+.menuarea
+{
+	background-color: #2b4875;
+	background-image: linear-gradient(#2b4875, black);
+	border: 3px double #a5a5df;
+	padding: 10px;
+	border-radius: 5px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	color: white;
+}
+.mainbox
+{
+	background-color: #2b4875;
+	background-image: linear-gradient(#2b4875, black);
+	border: 3px double #a5a5df;
+	border-radius: 5px;
+	width: 650px;
+	padding: 10px;
+	text-align: center;
+	float: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+#header {
+	text-align: center;
+	float: center;
+}
+header { 
+  display: block;
+}
+#footer {
+  clear: both;
+}
