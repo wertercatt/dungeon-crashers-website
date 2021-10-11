@@ -18,7 +18,7 @@ body {
 	background-size: auto, auto, cover;
 	background-color: #000221;
 }
-.menuarea
+#menuarea
 {
 	background-color: #2b4875;
 	background-image: linear-gradient(#2b4875, black);
@@ -47,10 +47,9 @@ body {
 #header {
 	text-align: center;
 	float: center;
+	display: block;
 }
-header { 
-  display: block;
-}
+
 #footer {
   clear: both;
 }
