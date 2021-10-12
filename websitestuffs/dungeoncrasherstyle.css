@@ -1,18 +1,9 @@
-a:link {
-	color: #0099ee;
-	text-decoration: none;
-}
-a:visited {
-	color: #007cc1;
-	text-decoration: none;
-}
-a:hover {
-	text-decoration: underline;
-}
 
-body,
-td,
-th {
+a:link {color:#0099ee;text-decoration:none;}
+a:visited {color:#007cc1;text-decoration:none;}
+a:hover {text-decoration:underline;}
+
+body,td,th {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	color: white;
@@ -20,15 +11,16 @@ th {
 	margin-bottom: 0px;
 }
 body {
-	background-image: url(jack-sloop-starter.png), url(planetglow.png),
-		url(jeremy-thomas-unsplash.jpg);
-	background-position: bottom, bottom, left top;
+	background-image: url(jack-sloop-starter.png),url(planetglow.png),url(jeremy-thomas-unsplash.jpg);
+	background-position: center;
 	background-repeat: no-repeat;
 	padding: 20px;
-	background-size: auto, auto, cover;
+	background-size: auto, auto, 100%;
 	background-color: #000221;
+	background-origin: padding-box;
 }
-#menuarea {
+#menuarea
+{
 	background-color: #2b4875;
 	background-image: linear-gradient(#2b4875, black);
 	border: 3px double #a5a5df;
@@ -40,7 +32,8 @@ body {
 	float: left;
 	color: white;
 }
-.mainbox {
+.mainbox
+{
 	background-color: #2b4875;
 	background-image: linear-gradient(#2b4875, black);
 	border: 3px double #a5a5df;
@@ -59,5 +52,6 @@ body {
 }
 
 #footer {
-	clear: both;
+  clear: both;
+  background-position: bottom;
 }
