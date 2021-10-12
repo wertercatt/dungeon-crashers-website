@@ -12,11 +12,12 @@ body,td,th {
 }
 body {
 	background-image: url(jack-sloop-starter.png),url(planetglow.png),url(jeremy-thomas-unsplash.jpg);
-	background-position: bottom, bottom, left top;
+	background-position: center;
 	background-repeat: no-repeat;
 	padding: 20px;
-	background-size: auto, auto, cover;
+	background-size: auto, auto, 100%;
 	background-color: #000221;
+	background-origin: padding-box;
 }
 #menuarea
 {
@@ -52,4 +53,5 @@ body {
 
 #footer {
   clear: both;
+  background-position: bottom;
 }
