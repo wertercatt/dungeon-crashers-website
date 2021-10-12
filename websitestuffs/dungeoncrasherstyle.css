@@ -12,13 +12,19 @@ body,td,th {
 }
 body {
 	background-image: url(jack-sloop-starter.png),url(planetglow.png),url(jeremy-thomas-unsplash.jpg);
-	background-position: center;
+	background-position: bottom,bottom,0% 0%;
 	background-repeat: no-repeat;
 	padding: 20px;
-	background-size: auto, auto, 100%;
+	background-attachment: scroll,local,fixed;
+	background-size: auto,auto,100vmax;
 	background-color: #000221;
 	background-origin: padding-box;
 }
+ul { 
+	//display: inline-block; 
+	line-height: 1.3;
+	text-align: left; 
+	}
 #menuarea
 {
 	background-color: #2b4875;
@@ -52,6 +58,7 @@ body {
 }
 
 #footer {
+  text-align: right;
   clear: both;
   background-position: bottom;
 }
