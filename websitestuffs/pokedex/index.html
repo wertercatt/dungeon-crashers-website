@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>SBARG 2.5: Dungeon Crashers</title>
+		<link rel="stylesheet" href="pokedexstyle.css" type="text/css">
+		<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+		<script src="websheet.js"></script>
+<script>
+  websheet('raw data', {  // <-- data source name
+              
+    // URL of the spreadsheet
+    url: 'https://docs.google.com/spreadsheets/d/1rEzHkerPQsWO3B_Tnk9G-jl2-0LlsCU-CXAtxRmZMHc/edit?usp=sharing',
+              
+    // Spreadsheet tab name
+    sheet: 'raw data',
+              
+  })
+</script>
+	</head>
+	<body>
+<div class="about-container">
+<div class="info-container">
+<p class="about-name">
+<h1><a href={{Link to more data}}><b>#{{#}}  -  {{Name}}</b></a></h1></p>
+<div class="photo-container">
+        <img src="{{Picture}}" width="100%">
+        </div>
+        <div class="basic-info-container">
+        The {{Classification}} Pokemon
+                <p class="info">
+                                <b>{{Type 1}} | {{Type 2}}</b><br>
+                <b>Weight</b>: {{Weight}} <br>
+                <b>Height</b>: {{Height}}<br>
+                                <b>Known Locations:</b><br>{{Known Locations}}<br></p>
+        </div>
+                <div class="info-container">
+                <b>Notes</b>
+                <p class="info">{{Flavortext}}</p>
+                <p class="info">{{Personal Notes}}</p>
+                </div> 
+        </div>
+</div>
+	</body>
+</html>
