@@ -1,16 +1,12 @@
 {
-    "env": {
-        "es6": true,
-        "browser": true,
-        "jquery": true
-    },
-    "extends": [
-        "eslint:recommended",
-
-
-    ],
-    "rules": {
-        "quotes": ["error", "single"],
-         "console.error": 0
-    }
+	"env": {
+		"es6": true,
+		"browser": true,
+		"jquery": true
+	},
+	"extends": ["eslint:recommended"],
+	"rules": {
+		"quotes": ["error", "single"],
+		"console.error": 0
+	}
 }
